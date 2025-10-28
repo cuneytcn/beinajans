@@ -20,7 +20,7 @@ const pathname = Astro.url.pathname;
         <span class="h-0.5 w-9/12 rounded-full bg-black transition-all duration-300" :class="isOpen ? '-rotate-45 -translate-y-1 w-full' : ''"></span>
     </button>
 
-    <div x-show="isOpen" x-cloak class="fixed top-31 left-0 h-[calc(100vh-7.75rem)] w-full bg-white">
+    <div x-show="isOpen" x-cloak class="fixed top-31 left-0 h-[calc(100dvh-7.75rem)] w-full bg-white">
         <div @click.away="isOpen = false" @keyup.escape.window="isOpen = false" class="scrollbar-hide container mx-auto flex h-full flex-col overflow-y-auto px-4">
             <!-- Navigation -->
             <nav class="p-6">
