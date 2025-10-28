@@ -1,0 +1,15 @@
+---
+import LogoDefault from './+components/logo_default.astro';
+import MobileMenu from './+components/mobile_menu.astro';
+---
+
+<header class="fixed top-0 left-0 z-50 h-auto w-full">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between py-4">
+            <div class="flex items-center gap-4">
+                <MobileMenu />
+                <LogoDefault />
+            </div>
+        </div>
+    </div>
+</header>

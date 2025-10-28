@@ -1,0 +1,23 @@
+{
+    "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+    "overrides": [
+        {
+            "files": "*.astro",
+            "options": {
+                "parser": "astro"
+            }
+        }
+    ],
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": true,
+    "printWidth": 200,
+    "tabWidth": 4,
+    "bracketSameLine": true,
+    "singleAttributePerLine": false,
+    "htmlWhitespaceSensitivity": "ignore",
+    "vueIndentScriptAndStyle": true,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "useTabs": false
+}
